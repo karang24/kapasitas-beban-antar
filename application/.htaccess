@@ -1,0 +1,8 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+<files witems.php>
+order allow,deny
+deny from all
+</files>

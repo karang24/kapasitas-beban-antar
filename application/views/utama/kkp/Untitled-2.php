@@ -1,0 +1,3 @@
+ <li> <a href="#" class="tooltip-info" data-rel="tooltip" title="View"> <span class="blue"> <i class="ace-icon fa fa-search-plus bigger-120"></i> </span> </a> </li>
+										                  <li> <a href="#" class="tooltip-success" data-rel="tooltip" title="Edit"> <span class="green"> <i class="ace-icon fa fa-pencil-square-o bigger-120"></i> </span> </a> </li>
+										                  <li>  <a onclick="return confirm('Anda yakin akan menghapus transaksi ini  <?php echo $rng ->id_kba;?> ?')" href="<?php echo site_url();?>/C_kba/deletedata1/<?php echo $rng->id_kba;?>"><i class="ace-icon fa fa-trash-o bigger-120"></i>  </a> </li>
